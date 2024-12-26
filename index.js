@@ -1,7 +1,7 @@
 
 var events = require ("events");
 var net = require ("net");
-var raw = require ("raw-socket");
+var raw = require ("@neuralegion/raw-socket");
 var util = require ("util");
 
 function _expandConstantObject (object) {
