@@ -1,15 +1,17 @@
 
-# net-ping
+# node-net-ping
+
+This module is a fork of net-ping. However, its dependency on raw-socket has been changed to @neuralegion/raw-socket, which uses prebuildify to bundle platform builds. This should reduce the need for local builds.
 
 This module implements ICMP Echo (ping) support for [Node.js][nodejs].
 
 This module is installed using [node package manager (npm)][npm]:
 
-    npm install net-ping
+    npm install node-net-ping
 
 It is loaded using the `require()` function:
 
-    var ping = require ("net-ping");
+    var ping = require ("node-net-ping");
 
 A ping session can then be created to ping or trace route to many hosts:
 
