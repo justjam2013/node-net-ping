@@ -1,7 +1,7 @@
 {
   "name": "node-net-ping",
   "type": "module",
-  "version": "1.2.5-beta.3",
+  "version": "1.2.5-beta.4",
   "description": "Ping and trace route to many hosts at once.",
   "author": "NoSpaceships Ltd <hello@nospaceships.com>",
   "license": "MIT",
