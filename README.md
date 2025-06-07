@@ -1,6 +1,8 @@
 
 # net-ping
 
+This module is a fork of net-ping. However, its dependency on raw-socket has been changed to [@neuralegion/raw-socket](https://github.com/NeuraLegion/node-raw-socket), which uses prebuildify to bundle platform builds. This should reduce the need for local builds.
+
 This module implements ICMP Echo (ping) support for [Node.js][nodejs].
 
 This module is installed using [node package manager (npm)][npm]:
