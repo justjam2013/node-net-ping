@@ -1,0 +1,33 @@
+# Keeping separate publish workflows for beta and latest, as it
+# makes it easier to see in 'Actions' which workflow ran
+
+name: NPM publish latest
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    if: "!github.event.release.prerelease"
+
+    runs-on: ubuntu-latest
+
+    outputs:
+      NPM_PACKAGE_VERSION: ${{ steps.package-version.outputs.current-version }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies and build 🔧
+        run: npm ci && npm run build
+
+      - name: Publish package to NPM - Latest 📦
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Return NPM Package Version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@v1.3.1
