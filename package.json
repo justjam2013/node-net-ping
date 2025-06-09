@@ -1,13 +1,16 @@
 {
-  "name": "net-ping",
-  "version": "1.2.4",
+  "name": "@justjam2013/net-ping",
+  "type": "module",
+  "version": "1.2.6",
   "description": "Ping and trace route to many hosts at once.",
+  "author": "NoSpaceships Ltd <hello@nospaceships.com>",
+  "license": "MIT",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
-  "dependencies": {
-    "raw-socket": "*"
+  "publishConfig": {
+    "access": "public"
   },
   "contributors": [
     {
@@ -21,21 +24,34 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nospaceships/node-net-ping.git"
+    "url": "https://github.com/justjam2013/net-ping.git"
   },
   "keywords": [
     "echo",
     "icmp",
     "monitor",
     "monitoring",
-  	 "net",
-  	 "network",
+    "net",
+    "network",
     "ping",
     "trace",
     "trace-route",
     "traceroute",
     "tracert"
   ],
-  "author": "NoSpaceships Ltd <hello@nospaceships.com>",
-  "license": "MIT"
+  "scripts": {
+    "lint": "eslint . --max-warnings=0"
+  },
+  "dependencies": {
+    "@neuralegion/raw-socket": "^1.8.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^22.13.5",
+    "eslint": "^9.21.0",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
 }
