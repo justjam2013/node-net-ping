@@ -12,7 +12,6 @@
     "@justjam2013/raw-socket": "1.0.0"
   },
   "scripts": {
-    "build": "npm build",
     "release": "npm publish --access public"
   },
   "repository": {
