@@ -8,11 +8,11 @@ This module implements ICMP Echo (ping) support for [Node.js][nodejs].
 
 This module is installed using [node package manager (npm)][npm]:
 
-    npm install net-ping
+    npm install @justjam2013/net-ping
 
 It is loaded using the `require()` function:
 
-    var ping = require ("net-ping");
+    var ping = require ("@justjam2013/net-ping");
 
 A ping session can then be created to ping or trace route to many hosts:
 
