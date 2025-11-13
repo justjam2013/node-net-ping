@@ -12,6 +12,7 @@
     "@justjam2013/raw-socket": "1.0.0"
   },
   "scripts": {
+    "build": "npm ping"
     "release": "npm publish --access public"
   },
   "repository": {
