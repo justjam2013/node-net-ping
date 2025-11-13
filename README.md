@@ -1,5 +1,8 @@
-
 # net-ping
+
+**Note:** This is a fork of [nospaceships/node-net-ping v1.2.4](https://github.com/nospaceships/node-net-ping) and uses @justjam2013/node-raw-socket, for compatibility with Node 24. This is a temporary fork created because "overrides" is broken in `npm` v11.6.1 and will not be maintained in the long run.
+
+## <!-- Thin separator line -->
 
 This module implements ICMP Echo (ping) support for [Node.js][nodejs].
 
