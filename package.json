@@ -1,6 +1,6 @@
 {
   "name": "@justjam2013/net-ping",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Ping and trace route to many hosts at once.",
   "author": "NoSpaceships Ltd <hello@nospaceships.com>",
   "license": "MIT",
@@ -9,7 +9,10 @@
     "example": "example"
   },
   "dependencies": {
-    "@justjam2013/raw-socket": "^1.0.0"
+    "@justjam2013/raw-socket": "^1.0.1"
+  },
+  "allowScripts": {
+    "@justjam2013/raw-socket": true
   },
   "scripts": {
     "build": "npm ping",
