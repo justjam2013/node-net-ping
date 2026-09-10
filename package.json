@@ -2,7 +2,7 @@
   "name": "@justjam2013/net-ping",
   "version": "2.0.2",
   "description": "Ping and trace route to many hosts at once.",
-  "author": "justjam2013",
+  "author": "justjam2023 (Renzo Zanelli - renzo.zanelli6@gmail.com)",
   "license": "MIT",
   "main": "index.js",
   "directories": {
