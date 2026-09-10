@@ -2,7 +2,7 @@
   "name": "@justjam2013/net-ping",
   "version": "2.0.2",
   "description": "Ping and trace route to many hosts at once.",
-  "author": "NoSpaceships Ltd <hello@nospaceships.com>",
+  "author": "justjam2013",
   "license": "MIT",
   "main": "index.js",
   "directories": {
@@ -34,5 +34,15 @@
     "trace-route",
     "traceroute",
     "tracert"
+  ],
+  "contributors": [
+    {
+      "name": "Stephen Vickers",
+      "email": "stephen.vickers@nospaceships.com"
+    },
+    {
+      "name": "NoSpaceships Ltd",
+      "email": "hello@nospaceships.com"
+    }
   ]
 }
