@@ -1,6 +1,6 @@
 # net-ping
 
-This is a fork of [nospaceships/node-net-ping v1.2.4](https://github.com/nospaceships/node-net-ping) which uses @justjam2013/node-raw-socket. This fork was originally intended only for supporting my Homebridge plugin by updating nan to the latest version, for compatibility with Node 24, as "overrides" is broken in npm v11.6.1.
+This is a fork of [nospaceships/node-net-ping v1.2.4](https://github.com/nospaceships/node-net-ping) which uses @justjam2013/node-raw-socket. This fork was originally intended only for supporting my Homebridge plugin by updating `nan` to the latest version, for compatibility with Node 24, as "overrides" is broken in npm v11.6.1.
 
 Version 2.1.0 will update this module for general use, not just my Homebridge plugin.
 
