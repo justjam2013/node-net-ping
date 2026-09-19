@@ -1,6 +1,6 @@
 > [!CAUTION]
 >
->After further review, this repo will no longer be developed or maintained. This functionality has been replaced by [node-icmp-ping](https://github.com/homebridge/node-icmp-ping) module, which is a complete rewrite in Rust, moving away form C/C++ maintenance issues. The new module only exposes the ping functionality and does not give direct access to raw sockets.
+>After further review, this repo will no longer be developed or maintained. This functionality has been replaced by the [node-icmp-ping](https://github.com/homebridge/node-icmp-ping) module, which is a complete rewrite in Rust, moving away form C/C++ maintenance issues. The new module only exposes the ping functionality and does not give direct access to raw sockets.
 
 ## <!-- Thin separator line -->
 
