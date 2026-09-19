@@ -1,3 +1,9 @@
+> [!CAUTION]
+>
+>After further review, this repo will no longer be developed or maintained. This functionality has been replaced by [node-icmp-ping](https://github.com/homebridge/node-icmp-ping) module, which is a complete rewrite in Rust, moving away form C/C++ maintenance issues. The new module only exposes the ping functionality and does not give direct access to raw sockets.
+
+## <!-- Thin separator line -->
+
 # net-ping
 
 This is a fork of [nospaceships/node-net-ping v1.2.4](https://github.com/nospaceships/node-net-ping) which uses @justjam2013/node-raw-socket. This fork was originally intended only for supporting my Homebridge plugin by updating `nan` to the latest version, for compatibility with Node 24, as "overrides" is broken in npm v11.6.1.
